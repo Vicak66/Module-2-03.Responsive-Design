@@ -11,6 +11,7 @@ header {
     background: #13293d;
     color: #fff;
 }
+nav ကို display ဖြင့် flex ဟုသတိမှတ်လိုက်သည်။
 nav {
     display: flex;
     background-color: #d8a47f;
@@ -21,6 +22,7 @@ nav a {
     text-decoration: none;
     text-align: center;
 }
+main ထဲရှိ element များကိုနေရာတကျဖြစ်အောင်ခြုံငုံပေးသည်။
 main {
     display: flex;
     flex-wrap: wrap;
@@ -39,6 +41,7 @@ footer {
     background: #13293d;
     color: #fff;
 }
+main ထဲရှိ ပစ္စည်းများကို အလယ်ဗဟိုမှာထားပေးညှိပေးခြင်းကိုလုပ်ပါသည်။
 .products {
     flex: 4;
     background-color: #fff;
