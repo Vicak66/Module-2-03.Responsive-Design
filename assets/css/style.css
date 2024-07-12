@@ -11,7 +11,7 @@ header {
     background: #13293d;
     color: #fff;
 }
-nav ကို display ဖြင့် flex ဟုသတိမှတ်လိုက်သည်။
+/* nav ကို display ဖြင့် flex ဟုသတိမှတ်လိုက်သည်။ */
 nav {
     display: flex;
     background-color: #d8a47f;
@@ -22,7 +22,7 @@ nav a {
     text-decoration: none;
     text-align: center;
 }
-main ထဲရှိ element များကိုနေရာတကျဖြစ်အောင်ခြုံငုံပေးသည်။
+/* main ထဲရှိ element များကိုနေရာတကျဖြစ်အောင်ခြုံငုံပေးသည်။ */
 main {
     display: flex;
     flex-wrap: wrap;
@@ -41,7 +41,7 @@ footer {
     background: #13293d;
     color: #fff;
 }
-main ထဲရှိ ပစ္စည်းများကို အလယ်ဗဟိုမှာထားပေးညှိပေးခြင်းကိုလုပ်ပါသည်။
+/* main ထဲရှိ ပစ္စည်းများကို အလယ်ဗဟိုမှာထားပေးညှိပေးခြင်းကိုလုပ်ပါသည်။ */
 .products {
     flex: 4;
     background-color: #fff;
@@ -50,7 +50,9 @@ main ထဲရှိ ပစ္စည်းများကို အလယ်ဗ�
     flex-wrap: wrap;
     justify-content: center;
 }
-
+/* flex property သည် flex-grow, flex-shrink နှင့် flex-basis properties များကို shorthand အဖြစ် သတ်မှတ်ရန် အသုံးပြုသည်။ 
+Shorthand property သည် code ကို အတိုချုံး၍ ရေးနိုင်စေရန် အထူးသင့်တော်ပါသည်။ 
+Flex items များ၏ flexible length ကို သတ်မှတ်ရာတွင် အသုံးပြုသော အရေးကြီးသော property တစ်ခု ဖြစ်ပါသည်။ */
 .card {
     border-style: solid;
     border-width: 1px;
@@ -67,6 +69,7 @@ main ထဲရှိ ပစ္စည်းများကို အလယ်ဗ�
 .card img {
     width: 100%;
 }
+/* flex-direction သည် flex container အတွင်းရှိ items များ၏ ဦးတည်ရာကိုသတ်မှတ်ပေးပါသည်။ */
 @media screen and (max-width: 768px) {
     main,
     nav {flex-direction: column;}
